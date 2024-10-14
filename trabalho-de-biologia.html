@@ -5,24 +5,85 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pele e os seus tipos: Como cuidar?</title>
 	<style>
-		div {
-			text-align: center;
+		div.mycontainer{
+			width: 100%;
+			overflow: auto;
+			margin: auto;
+			font-size: 17px;
+			color: white;
+		}
+		div.mycontainer div{
+			width: 20%;
+			float: left;
+			padding: 0px;
+			background-color: cadetblue;
+			color: white;
+		}
+		div.mycontainer div:hover{
+			background-color: darkcyan;
+		}
+		div.mycontainer div:hover a{
+			color: white;
 			margin: auto;
 		}
+
+		div {
+			text-align: center;
+			width: 100%;
+			display: inline-block;
+		}
 		#intro {
-			background-color: #ADD8E6;
+			background-color:  #ADD8E6;
 
 		}
 		body {
 			font-family: Sans-Serif;
 		}
+		#info{
+			background-color: #ADD8E6;
+		}
+		#bibliografia{
+			text-align: left;
+		}
+		#oleosa{
+			background-color: cadetblue;
+		}
+		#normal{
+			background-color: #4682B4;
+		}
+		#mista{
+			background-color: #B0C4DE;
+		}
+		#seca{
+			background-color: #8FBC8F;
+		}
+		img{
+			width:10%; height: 10%;
+		}
 	</style>
 </head>
 <body>
+	<div class="mycontainer">
+		<div>
+			<h1> <a href = "#intro" style="color:white"> Introdução</a></h1>
+		</div>
+		<div>
+			<h1> <a href = "#oleosa" style="color:white"> Pele Oleosa</a></h1>
+		</div>
+		<div>
+			<h1> <a href = "#normal" style="color:white"> Pele Normal</a></h1>
+		</div>
+		<div>
+			<h1> <a href = "#mista" style="color:white"> Pele Mista</a></h1>
+		</div>
+		<div>
+			<h1> <a href = "#seca" style="color:white"> Pele Seca</a></h1>
+		</div>
+	</div>
 	<div id="intro">
-		<h1>Introduzindo aos cuidados com a pele; é importante?
+		<h1 id ="intro">Introduzindo aos cuidados com a pele; é importante?
 		</h1><br>
-		<img src="man-skin-care.jpg" width="70%" height="60%"><br>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRfehW1Pkztjcjcc4_lO8jIueSnGoV2_1sgA&s"><br>
 		<p>
 			Uma pesquisa realizada pela CeraVe revelou que 4 em cada 10 pessoas admitem que não sabem que tipo de produto de limpeza facial é melhor para seu tipo de pele. 33% dos entrevistados acreditam na afirmação incorreta de que quanto mais se lava o rosto, mais limpo ele fica. Dados como esses revelam a importância de se informar sobre os tipos de pele, produtos e como cuidar corretamente da sua barreira cutânea. Nestes textos você vai conhecer e entender os tipos de pele.
 		</p>
@@ -31,19 +92,31 @@
 		<h1>Primeiro de tudo, vamos compreender melhor a pele:
 		</h1>
 		<p>
-			Você sabia que nossa pele tem diversas funções? Na camada mais externa, chamada epiderme, existem os queratinócitos, responsáveis por produzir a proteína queratina, que dá rigidez e impermeabilidade à nossa pele. Essa camada também nos protege de bactérias, toxinas e impede a perda de líquidos. Além disso, existe uma camada de lipídios (gordura) epidérmicos, que criam uma barreira protetora e ficam a umidade da nossa pele. A epiderme é coberta por uma espécie de “mistura” de água e óleo (essa “mistura” leva o nome de emulsão), chamada de camada hidrolipídica, ajuda a proteger nossa pele de fungos e também a manter nossa pele flexível. Essa parte líquida da pele contém um certo nível de acidez, que favorece a presença de microorganismos bons, além de matar microorganismos nocivos e ajudar na auto reparação da camada córnea, a mais externa dentro da epiderme, quando danificada. A camada média, chamada derme, tem uma textura mais grossa, que ajuda a amortecer golpes externos, além de auxiliar na regeneração de possíveis lesões. A camada mais interna, chamada <b><u>hipoderme</u></b> armazena energia e isola nosso corpo da temperatura externa. Ficou claro que nossa pele tem muitas funções que a gente nem imagina, proteção contra fungos, isolante térmico, amortecer impactos, regenerar lesões, entre outras. Agora que entendemos um pouco sobre as funções da pele e sua importância, vamos conhecer os 4 tipos de pele, sendo eles:<b>oleosa, normal, seca e mista.</b>
+			Você sabia que nossa pele tem diversas funções? Na camada mais externa, chamada epiderme, existem os queratinócitos, responsáveis
+			por produzir a proteína queratina, que dá rigidez e impermeabilidade à nossa pele. 
+			Essa camada também nos protege de bactérias, toxinas e impede a perda de líquidos. Além disso, existe uma camada de lipídios (gordura) epidérmicos, 
+			que criam uma barreira protetora e ficam a umidade da nossa pele. 
+			A epiderme é coberta por uma espécie de “mistura” de água e óleo (essa “mistura” leva o nome de emulsão), chamada de camada hidrolipídica, 
+			ajuda a proteger nossa pele de fungos e também a manter nossa pele flexível. 
+			Essa parte líquida da pele contém um certo nível de acidez, que favorece a presença de microorganismos bons, além de matar microorganismos nocivos e 
+			ajudar na auto reparação da camada córnea, a mais externa dentro da epiderme, quando danificada. 
+			A camada média, chamada derme, tem uma textura mais grossa, que ajuda a amortecer golpes externos, além de auxiliar na regeneração de possíveis lesões.
+			A camada mais interna, chamada <b><u>hipoderme</u></b> armazena energia e isola nosso corpo da temperatura externa.
+			Ficou claro que nossa pele tem muitas funções que a gente nem imagina, proteção contra fungos, isolante térmico, amortecer impactos, regenerar lesões, entre outras. 
+			Agora que entendemos um pouco sobre as funções da pele e sua importância, vamos conhecer os 4 tipos de pele, sendo eles:<b>oleosa, normal, seca e mista.</b>
+			<br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR42uI5bgW1V1WS-4GhTnGY-xuCymRhynEuBA&s"> <br>
 		</p>
 	</div>
 	<div id="oleosa">
-		<h1>
+		<h1 id = "oleosa">
 			Sobre a pele oleosa; o que é, o que causa e como cuidar.
-		</h1>
+		</h1><br>
+		<img src="https://dermacenterav.com.br/wp-content/uploads/2023/01/1601521330-pele-oleosa.webp">
 		<p>
 			A pele oleosa é um tipo de pele que se caracteriza pela produção em excesso de sebo e óleo, respectivamente pelas glândulas sebáceas e sudoríparas, deixando a pele com uma sensação de peso, um brilho acima do norma, textura mais espessa, poros dilatados e até dificuldade de fixar a maquiagem. Esta pele também é a mais suscetível a ter espinhas, acne e cravos.
 		</p>
 		<h2>O que causa a oleosidade na Pele?
 		</h2>
-		<p>
 			Diversos fatores causam essa oleosidade em excesso na pele, fatores como:
 			<h4>Causas hormonais:</h4>
 			<p>
@@ -52,14 +125,150 @@
 			</p>
 			<h4>Falta de limpeza facial: </h4>
 			<p>
-				Ao longo do dia, nossa rosto, através do ar, entra em contato com impurezas e poluições de diversos tipos ao longo do dia, essas impurezas entram na pele não só superficialmente, mas também até nas camadas mais profundas de nossa pele. Caso essas impurezas não sejam limpas e retiradas do rosto, os poros ficam entupidos, consequentemente aumentando a oleosidade no rosto.
+				Ao longo do dia, nossa rosto, através do ar, entra em contato com impurezas e poluições de diversos tipos ao longo do dia, essas impurezas entram na pele não só superficialmente, mas também até nas camadas mais profundas de nossa pele. 
+				Caso essas impurezas não sejam limpas e retiradas do rosto, os poros ficam entupidos, consequentemente aumentando a oleosidade no rosto.
 			</p>
 
 			<h4>Uma alimentação ruim:</h4>
 			<p>
 				Outro dos principais fatores que é essencial na saúde da sua pele é a alimentação, caso sua alimentação seja rica em alimentos que possuem óleo, o seu rosto fica mais propício a ter uma produção de óleo em excesso.
 			</p>
-		</p>
+			<h4>Exposição ao sol sem uso de protetor:</h4>
+			<p>A exposição ao sol sem protetor é muito importante pra saúde da pele, além de contribuir bastante para o excesso de oleosidade na pele, os raios UVA e UVB 
+				(raios ultravioletas produzidos pelo sol) podem trazer queimaduras, envelhecimento precoce manchas e até o Câncer de Pele.
+			Além claro de outros fatores como a falta de hidratação, uso dos produtos errados, a limpeza em excesso, não remover a maquiagem antes de dormir e entre outros.</p>
+			<h4>Mas como que se trata esta pele?</h4>
+			<p>Primeiro de tudo, é importante destacar e deixar claro que assim como a falta de limpeza facial aumenta a oleosidade no rosto, o excesso de limpeza facial como lavar o rosto com sabonete toda hora também aumenta a oleosidade 
+			(por causa do efeito rebote), favorecendo a proliferação de microorganismos.
+			Depende de pessoa pra pessoa e do estado da pele a sua frequência de limpeza, mas o <b>essencial</b> é que o rosto seja lavado duas vezes ao dia, uma vez ao acordar e outra antes de dormir. 
+			O uso de sabonete líquido é mais indicado, pois o sabonete em barra altera o nível de pH do rosto, favorecendo a proliferação de microorganismos pela pele.
+			Sobre a alimentação, é importante manter uma alimentação saudável com alimentos ricos em vitaminas, nutrientes e minerais para garantir que esses benefícios também serão entregues para a pele.
+
+			Já sobre o protetor solar, o uso diário é muito importante para proteger dos raios UVA E UVB e pra prevenir a pele do efeito rebote.</p>
+			<p>
+			Pra alimentação, é importante manter uma alimentação saudável com alimentos ricos em vitaminas, nutrientes e minerais para garantir que esses benefícios também serão entregues para a pele.
+			Já sobre o protetor solar, o uso diário é muito importante para proteger dos raios UVA E UVB e pra prevenir a pele do efeito rebote, 
+			o protetor pode ter controle de oleosidade na fórmula, Já existem protetores assim, como os com oil control, toque seco e efeito matte.<br>
+			Vamos lá, esses são os 5 passos para cuidar da sua pele oleosa:<br>
+			<b>1- Use o sabonete ideal para a pele oleosa:</b><br>
+			Mas qual é este sabonete? Toda rotina de skincare tem como começo a hidratação da pele, para essa pele o ideal é lavar 2 vezes ao dia, uma lavagem diurna e uma noturna com um sabonete líquido que contenha enxofre e ácido salicílico em sua composição.
+			Esse tipo de sabonete ajuda a remover a oleosidade do rosto e o extrato córneo (células mortas) que ficam na parte extrema da nossa pele.<br>
+			<b>2- Use tônicos suaves:</b><br>
+			O tônico, que também deve conter enxofre e ácido salicílico, é o segundo passo da higienização e ajuda a diminuir o quadro de oleosidade, este é outro cuidado fundamental está em optar por produtos suaves e que não irritem a sua pele.<br>
+			<b>3- Faça esfoliação até duas vezes na semana:</b><br>
+			A esfoliação é essencial, pois ajuda a renovar a pele e eliminar as células mortas que vão se acumulando.<br>
+			<b>4- Aposte na hidratação:</b><br>
+			Use hidratantes mais leves, como os em gel ou com toque seco, evitando loções, cremes e séruns mais gordurosos.<br>
+			<b>5-Evite usar produtos pesados:</b><br>
+			Para peles oleosas, o ideal são itens mais leves e que não contenham óleo, a maquiagem também conta bastante, ainda mais quando você aposta em produtos pesados. O mais indicado é usar itens mais leves e com efeito matificante.<br>
+			<img src="https://cdn.shopify.com/s/files/1/0525/6934/2107/files/pele-oleosa_rosto_600x600.jpg?v=1682456598">
+			</p>
+	</div>
+	<div id="normal">
+		<h1 id ="normal">Sobre a pele normal, o que é, como fazer para saber se este é o seu tipo de pele e cuidados necessários.</h1><br>
+		<img src="https://j6t2y8j5.rocketcdn.me/wp-content/uploads/2020/06/pele-normal-como-e-o-que-fazer-para-manter-1-1.jpg" alt="">
+		<p>A pele normal tem textura saudável e aveludada, produzindo gordura em quantidade adequada, sem excesso de brilho ou ressecamento. Geralmente, a pele normal apresenta poros pequenos e pouco visíveis.</p>
+		<h3>Como saber se minha pele é normal?</h3>
+		<p>A pele normal costuma ser equilibrada, onde a produção de água e sebo estão em equilíbrio na barreira protetora da pele, permitindo ainda que os poros não sofram dilatações e o viço da pele fique aparente. 
+		Outra característica da pele normal é a menor incidência de ter espinhas e manchas, pois sua microbiota é equilibrada e consegue combater as anormalidades da pele sem causar inflamação na barreira de proteção.</p>
+		<h4>É possível a pele normal ficar seca ou oleosa?</h4>
+		<p>A pele normal é o tipo de pele que todo mundo sonha em ter, mas devemos ter em mente que ela pode sofrer variações a depender do clima e não dispensa os cuidados diários com a pele, 
+		com os três pilares da skincare: limpeza, hidratação e proteção.
+		Dependendo do tipo de cuidados que você possui com a pele e com os ambientes que fica exposta, pode haver uma desregulação no organismo e ocasionar na pele seca ou pele oleosa.
+		Alterações hormonais também podem acabar mudando o seu tipo de pele, deixando-as mais oleosas ou mais secas, a depender do efeito colateral do seu organismo sobre sua pele.</p>
+		<h3>Cuidados necessários para a pele normal.</h3>
+		<p>Os cuidados para este tipo de pele visam, a princípio, manter o seu estado fisiológico natural e protegê-la do ambiente externo. 
+		A pele normal requer limpezas matutinas e vespertinas apropriadas e proteção contra a oxidação causada pelos radicais livres.
+		O primeiro passo é a limpeza da pele para remoção de poeira, maquiagem e microrganismos, além do suor e da gordura. 
+		Vale ressaltar que os agentes de limpeza não modificam a pele e podem ser apresentados de várias formas.
+		Esfoliações ocasionais também são benéficas.
+		O segundo passo é a tonificação da pele, que irá remover a oleosidade da superfície e os resíduos deixados pelos produtos de limpeza.
+		O terceiro passo é a hidratação. A função dos hidratantes é tornar a pele flexível e deixá-la com aspecto rejuvenescido.
+		Também é essencial o uso regular de proteção solar, independente do tempo e da exposição ao sol, da estação do ano e das condições climáticas. 
+		Os ativos cosméticos com a função de minimizar os efeitos dos raios ultravioleta sobre a nossa pele são conhecidos como filtros ultravioleta.
+		Essas substâncias podem ser incorporadas em:
+		cosméticos multifuncionais que permaneçam sobre o corpo como, por exemplo, hidratantes e maquiagens;
+		nos próprios protetores solares.</p>
+		<img src="https://cdn.shopify.com/s/files/1/0525/6934/2107/files/tipos-de-pele_600x600.jpg?v=1688585538" alt="">
+	</div>
+	<div id="mista">
+		<h1 id ="mista">Sobre a pele mista; do que se trata e como cuidar</h1>
+		<img src="https://blog.oceane.com.br/wp-content/uploads/2024/02/0e0d7c9682280c118d90a3250be56226_INTERNA_SKIN_0902_1.jpg" alt="">
+		<p>A pele mista é um dos tipos mais comuns e desafiadores de cuidar. 
+		Ela combina características de pele oleosa e seca em diferentes regiões do rosto, exigindo uma abordagem equilibrada nos cuidados diários.</p>
+		<h3>Características da Pele Mista</h3><br>
+		<p>- <b>Zona T oleosa:</b>  A região que inclui testa, nariz e queixo tende a ser mais oleoso, o que pode resultar em brilho, poros dilatados e maior propensão a cravos e espinhas.<br>
+		- <b>Bochechas e áreas ao redor dos olhos secas:</b>  Em contraste, as laterais do rosto costumam apresentar pele seca ou normal, 
+		ficando mais ressecadas após a limpeza ou em condições climáticas frias.<br>
+		- <b>Sensibilidade variável:</b> Pessoas com pele mista podem notar que certas áreas são mais reativas, 
+		especialmente as secas, enquanto a zona oleosa pode ser mais resistente a produtos de cuidado.<br></p>
+		<h2>Cuidados Essenciais para a Pele Mista</h2><br>
+		<p><b>1. Limpeza adequada:</b> <br>
+		Utilize produtos de limpeza suaves que removam impurezas sem ressecar a pele. 
+		O ideal é usar géis de limpeza com ingredientes como ácido salicílico, que controlam a oleosidade na zona T, sem prejudicar áreas mais secas.<br>
+		<b>2. Hidratação balanceada</b> <br>
+		Nas áreas secas, prefira hidratantes mais nutritivos; já para a zona T, é indicado um hidratante leve e livre de óleo.
+		Você também pode usar produtos diferentes em cada parte do rosto, se necessário.<br>
+		<b>3. Proteção solar diária</b> <br>
+		Independentemente do tipo de pele, o uso de protetor solar é essencial. 
+		Para a pele mista, um protetor com toque seco ajuda a evitar o aumento da oleosidade e garante proteção contra os raios UV.<br>
+		<b>4. Esfoliação e tonificação</b> <br>
+		A esfoliação suave, realizada 1 a 2 vezes por semana, remove células mortas e previne o acúmulo de oleosidade.
+		O uso de tônicos adstringentes na zona T é recomendado para equilibrar a produção de sebo e manter os poros limpos.<br></p>
+		<h2>Rotina de Cuidados ao Longo da Vida</h2><br>
+		<p>Os cuidados podem variar conforme a idade:<br>
+		- Dos 20 aos 30 anos: Enfoque na proteção solar e antioxidantes com vitamina C para prevenir os primeiros sinais de envelhecimento.<br>
+		- Dos 30 aos 40 anos: Além dos antioxidantes, considere produtos com ácido retinoico, que ajudam na renovação celular.<br>
+		- Aos 50 anos ou mais: Invista em hidratantes ricos em peptídeos para combater a flacidez e melhorar a retenção de água na pele.<br>
+		Manter uma rotina personalizada para a pele mista é essencial para evitar problemas como acne e ressecamento extremo. 
+		Além disso, fatores como o clima e a faixa etária também influenciam na escolha dos produtos ideais.<br></p>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJNMRV2NoYza4Ep0OU_WRYTJUEkFQORhoUnKvhLUhrru345VzZew27NbmOH9Or0ueE_wM&usqp=CAU" alt="">
+	</div>
+	<div id="seca">
+		<h1 id ="seca">Agora sobre a pele seca; o que é, quais são as causas e como cuidar?</h1><br>
+		<img src="https://www.saudebemestar.pt/media/89062/pele-seca.jpg" alt="">
+		<h3>O que é a pele seca?</h3>
+		<p>A pele se torna seca quando perde a sua capacidade de reter água, o que está associado à redução de produção de lipídios.
+		Por causa dessa falta de gordura, a pele não consegue reter umidade e construir um escudo protetor contra influências externas,
+		o que compromete a sua função de barreira. Existem vários graus de pele seca e muitas vezes torna-se difícil distinguí-los.
+		Essa perda de líquidos causa uma pele mais áspera, acinzentada, coceira e também manchas vermelhas na pele. 
+		Vale lembrar que todas as peles ficam mais ressecadas com o envelhecimento, e que o número de mulheres com pele seca, em especial, é maior que o número de homens.</p>
+		<h3>Ok, então só o envelhecimento causa pele seca?</h3><br>
+		<p>Não, a pele seca é causada pela falta de:<br>
+		<b>Fatores de hidratação naturais:</b> são especialmente os aminoácidos, ureia e ácido láticos, que ajudam a fixar a água na pele.<br>
+		<b>Lipídios epidérmicos:</b> como foi dito lá em cima, existe uma camada de gordura na epiderme, quie ajuda a fixar a umidade na pele. Quando essa gordura está em falta, 
+		nossa pele não consegue reter umidade, tornando nossa pele mais ressecada.</p>
+		<h3>E como eu posso cuidar da pele seca?</h3><br>
+		<p><b>Algumas dicas para cuidar da pele seca são:</b><br>
+		<b>Evitar o uso de buchas ou escovas de banho:</b> o uso de escovas ou buchas diariamente ou com muita força pode acabar removendo a camada protetora da pele,
+		fazendo ela perder umidade e tornando a pele seca. O ideal é usar de 2 a 3 vezes na semana.<br>
+		<b>Evitar tomar banhos muitos quentes:</b> banhos demorados e em altas temperaturas, acima de 38º graus, pode acabar removendo a oleosidade natural da pele,
+		tornando ela ressecada. O recomendado é tomar banhos de no máximo 5 minutos e em temperatura morna ou fria.<br>
+		<b>Usar sabonete hidratante:</b> Usar sabonetes com propriedades hidratantes ou sabonete líquido neutro pode preservar a camada protetora
+		da pele, evitando o ressecamento e dando aspecto de pele mais hidratada.<br>
+		<b>Usar hidratantes para pele seca:</b> o uso de hidratantes diariamente ajuda a repor nutrientes e a oleosidade que a pele precisa para reter água.
+		Além disso, deve-se usar cremes hidratantes de cada parte do corpo na parte do corpo para qual qual o creme foi produzido. Exemplo: usar creme de rosto <b>apenas</b> no rosto,
+		creme para pés apenas nos pés, e assim por diante.</p>
+		<img src="https://media.starlightcms.io/workspaces/327329647/optimized/dd069a914613228b581dab06c9b19d4c.jpg" alt="">
+	</div>
+	<div id="final">
+		<p>Esperamos que esses textos tenham sido esclarecedores, e que a partir de agora você tenha a plena capacidade de identificar qual tipo de pele é o seu, e também
+		como cuidar da sua pele.</p>
+	</div>
+	<div id="bibliografia">
+		<p>Seguem os links de referências:</p>
+		<br><a href="https://www.eucerin.com.br/sobre-pele/conhecimentos-basicos-sobre-a-pele/tipos-de-pele" target="_blank">"https://www.eucerin.com.br/sobre-pele/conhecimentos-basicos-sobre-a-pele/tipos-de-pele"</a><br>
+		<a href="https://www.loreal.com/pt-br/brazil/news/grupo/pesquisa-global-cerave-55-das-pessoas-nao-sabe-limpar-a-pele-corretamente-grupo-loreal--06112020/#:~:text=55%25%20das%20pessoas%20n%C3%A3o%20sabe%20limpar%20a%20pele%20corretamente" target="_blank">https://www.loreal.com/pt-br/brazil/news/grupo/pesquisa-global-cerave-55-das-pessoas-nao-sabe-limpar-a-pele-corretamente-grupo-loreal--06112020/#:~:text=55%25%20das%20pessoas%20n%C3%A3o%20sabe%20limpar%20a%20pele%20corretamente</a><br>
+		<a href="https://www.eucerin.com.br/sobre-pele/conhecimentos-basicos-sobre-a-pele/estruture-e-funcoes-da-pele" target="_blank">https://www.eucerin.com.br/sobre-pele/conhecimentos-basicos-sobre-a-pele/estruture-e-funcoes-da-pele</a><br>
+		<a href="https://prouc.uff.br/como-identificar-e-cuidar-do-seu-tipo-de-pele/" target="_blank">https://prouc.uff.br/como-identificar-e-cuidar-do-seu-tipo-de-pele/</a><br>
+		<a href="https://www.loreal-paris.com.br/pele-oleosa-dicas-para-tratar" target="_blank">https://www.loreal-paris.com.br/pele-oleosa-dicas-para-tratar</a><br>
+		<a href="https://www.garnier.com.br/dicas/pele/limpeza/pele-oleosa" target="_blank">https://www.garnier.com.br/dicas/pele/limpeza/pele-oleosa</a><br>
+		<a href="https://www.rededorsaoluiz.com.br/doencas/pele-oleosa" target="_blank">https://www.rededorsaoluiz.com.br/doencas/pele-oleosa</a><br>
+		<a href="https://www.dermotivin.com.br/article/pele-mista" target="_blank">https://www.dermotivin.com.br/article/pele-mista</a><br>
+		<a href="https://www.garnier.com.br/dicas/pele/cuidados-com-a-pele/pele-mista" target="_blank">https://www.garnier.com.br/dicas/pele/cuidados-com-a-pele/pele-mista</a><br>
+		<a href="https://blog.bioage.com.br/pele-mista/" target="_blank">https://blog.bioage.com.br/pele-mista/</a><br>
+		<a href="https://www.tuasaude.com/tratamento-para-pele-seca" target="_blank">https://www.tuasaude.com/tratamento-para-pele-seca</a><br>
+		
 	</div>
 </body>
 </html>
